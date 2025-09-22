@@ -25,6 +25,7 @@ starlette = ">=0.36.2"
 structlog = "^25.4.0"
 uvicorn = "^0.23.2"
 pedalboard = "^0.9.17"
+librosa = "^0.11.0"
 
 [tool.poetry.group.dev.dependencies]
 alembic = "^1.16.4"
@@ -38,6 +39,8 @@ pytest-env = "^1.1.5"
 pytest-mock = "^3.14.1"
 types-pyyaml = "^6.0.12.20250822"
 types-requests = "^2.32.4.20250809"
+nbqa = "^1.9.1"
+black = "^25.9.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
